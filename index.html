@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MPThLee.dev</title>
+    <meta name="description" content="MPThLee's general, profesional site." />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@1.5.9/css/pico.min.css"
+    />
+
+    <style>
+      body > main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: calc(100vh - 7.5rem);
+        padding: 1rem 0;
+      }
+
+      body > footer {
+        padding: 1rem 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="container-fluid">
+      <ul>
+        <li>
+          <a href="/" class="contrast" onclick="event.preventDefault()"
+            ><strong>MPThLee.dev</strong></a
+          >
+        </li>
+      </ul>
+      <!--
+      <ul>
+        <li><a href="https://fedi.mpthl.ee">Fedi</a></li>
+      </ul>
+      -->
+    </nav>
+
+    <main>
+      <section id="header">
+        <div class="container">
+          <hgroup>
+            <h2>MPThLee.dev</h2>
+            <h3>MPThLee's general, profesional site.</h3>
+          </hgroup>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="container">
+          <hgroup>
+            <h2>Contact</h2>
+            <h3>&nbsp;</h3>
+          </hgroup>
+          <ul>
+            <li>
+              <a href="https://fedi.mpthl.ee/@MPThLee"><strong>Fedi</strong></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="links">
+        <div class="container">
+          <hgroup>
+            <h2>Links</h2>
+            <h3>&nbsp;</h3>
+          </hgroup>
+          <ul>
+            <li>
+              <a href="/" onclick="event.preventDefault()"
+                ><strong>Here</strong></a
+              >
+              : General site
+            </li>
+            <li>
+              <a href="https://mpthl.ee"><strong>MPThL.ee</strong></a> : A
+              short-handle domain
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="container-fluid">
+      <small>
+        Copyright 2023-present MPThLee •
+        <a href="https://github.com/MPThLee/mpthlee.dev">Source code</a>
+      </small>
+    </footer>
+  </body>
+</html>
